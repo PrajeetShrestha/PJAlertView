@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <objects>
@@ -21,7 +20,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="0.74901960779999999" green="0.1647058824" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.0" green="0.1216077302631579" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="yVb-9S-9tB" secondAttribute="trailing" constant="8" id="7pV-dG-OFr"/>
                         <constraint firstAttribute="bottom" secondItem="yVb-9S-9tB" secondAttribute="bottom" constant="10" id="U21-dm-9uk"/>
@@ -36,7 +35,7 @@
                         <constraint firstAttribute="height" constant="40" id="E84-EF-AdR"/>
                     </constraints>
                     <state key="normal">
-                        <color key="titleColor" red="0.99607843139999996" green="0.1764705882" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -45,7 +44,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-Jq-Z5P" userLabel="Cancel Button">
                     <rect key="frame" x="250" y="160" width="250" height="40"/>
-                    <color key="backgroundColor" red="0.74901960784313726" green="0.16470588235294117" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="xgv-hQ-i3E"/>
                     </constraints>
@@ -63,11 +62,11 @@
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="i1M-vC-y3w"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.99607843137254903" green="0.17647058823529413" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
                 <constraint firstItem="meP-oa-Q2X" firstAttribute="width" secondItem="9mt-Jq-Z5P" secondAttribute="width" id="1C9-3P-29L"/>
                 <constraint firstItem="4Rx-tI-SnO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Vd-Ma-70K"/>
