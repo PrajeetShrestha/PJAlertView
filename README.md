@@ -17,3 +17,7 @@ As simple as that . Now you can modify the colors and other properties of PJAler
 
 *For any queries please feel free to mail me at prajeet.shrestha@gmail.com*
     
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/PrajeetShrestha/pjalertview/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
