@@ -7,7 +7,6 @@
 //
 
 #import "PJAlertView.h"
-#import "AppDelegate.h"
 
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
@@ -90,11 +89,7 @@
 
 -(void)show
 {
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    
-    UIWindow *window = delegate.window;
-    
-    window = delegate.window;
+    UIWindow *window = [[UIApplication sharedApplication]windows][0];
     
     backView.frame = window.rootViewController.view.frame;
     
